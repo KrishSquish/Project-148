@@ -1,0 +1,8 @@
+Model Information:
+* title:	Dark Magician Girl
+* source:	https://sketchfab.com/3d-models/dark-magician-girl-8b711d48342c467988a7b1d62e42aa35
+* author:	Tigerar1 (https://sketchfab.com/allanromanreyes)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works

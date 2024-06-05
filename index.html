@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+</head>
+    <a-scene background = "color:black">
+        <a-camera position="0 0 10"></a-camera>
+
+        <a-plane position=" 0 0 0" width = "18" height = "10" shadow="receive: true"
+        src = "https://th.bing.com/th/id/R.d7a964661768fe2217a0d244810c0bc1?rik=%2bGZFuIEjGNagoA&riu=http%3a%2f%2f2.bp.blogspot.com%2f_bvwMhW-8k68%2fS9IrP-k2rQI%2fAAAAAAAAAKQ%2flgb1p-f9pwM%2fw1200-h630-p-k-no-nu%2fFRESHSTK_MDP_L013.03_cn%2bcopy.jpg&ehk=Z1Fu3l9HAp5m6339RkPJiljVSh7wtfL1S1cIiHNMMJA%3d&risl=&pid=ImgRaw&r=0">
+        </a-plane>
+        <a-plane position="0 -5 2" rotation = "-80 0 0" width = "18" height = "5" shadow="receive: true"
+        src = "https://static.turbosquid.com/Preview/2014/08/01__17_13_45/AsphaltRoad.jpge1fadce4-e28c-4db2-bcb2-dd5d9182f7d1DefaultHQ.jpg"
+        >
+        </a-plane>
+
+        <a-assets timeout="10000">
+
+            <a-asset-item id="cat" src="./models/cat/scene.gltf"></a-asset-item>      
+
+            <a-asset-item id="girl" src="./models/dark_magician_girl/scene.gltf"></a-asset-item> 
+
+            <a-asset-item id="bench" src="./models/bench/scene.gltf"></a-asset-item>      
+      
+            <a-asset-item id="lamp" src="./models/street_lamp_01/scene.gltf"></a-asset-item>      
+                      
+          </a-assets>
+
+          <a-entity>
+            <a-entity position="0 -5 2" rotation="0 0 0" scale="0.15 0.15 0.15" gltf-model="#girl" shadow="cast: true;">
+            </a-entity>
+          </a-entity>
+
+          <a-entity>
+            <a-entity position="0 -5 1" rotation="0 0 0" scale="2 2 2" gltf-model="#bench" shadow="cast: true;">
+            </a-entity>
+          </a-entity>
+
+          <a-entity>
+            <a-entity position="4 -5 2" rotation="0 220 0" scale="5 5 5" gltf-model="#cat" shadow="cast: true;">
+            </a-entity>
+          </a-entity>
+
+          <a-entity>
+            <a-entity position="-5 -5 2" rotation="0 0 0" scale="2 2 2" gltf-model="#lamp" shadow="cast: true;">
+            </a-entity>
+          </a-entity>
+
+          <a-entity light = "type:point; castShadow:true; color:#e6ca14; intensity:2.35"
+          position = "0 0 15">
+
+          </a-entity>
+    </a-scene>
+
+
+
+
+</html>

@@ -1,0 +1,8 @@
+Model Information:
+* title:	Street Lamp 01
+* source:	https://sketchfab.com/3d-models/street-lamp-01-2dea2d04049042f985ca5ba4c24ce580
+* author:	Misam Ali Rizvi (https://sketchfab.com/MisamAliRizvi)
+
+Model License:
+* license type:	SKETCHFAB Standard (https://sketchfab.com/licenses)
+* requirements:	Under basic restrictions, use worldwide, on all types of media, commercially or not, and in all types of derivative works
